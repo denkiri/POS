@@ -1,0 +1,5 @@
+[17-Jan-2023 21:48:15 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'denkiric_inventory.mpesa_payments' doesn't exist in /home/denkiric/pharmacy.denkiri.com/sales/pages/cashier/mpreview.php:227
+Stack trace:
+#0 /home/denkiric/pharmacy.denkiri.com/sales/pages/cashier/mpreview.php(227): PDOStatement->execute()
+#1 {main}
+  thrown in /home/denkiric/pharmacy.denkiri.com/sales/pages/cashier/mpreview.php on line 227
